@@ -4,3 +4,5 @@
 
 ## Assignment 2
 ![Screenshot_5-9-2025_133251_127 0 0 1](https://github.com/user-attachments/assets/f69ab7dd-1242-4701-bf8f-2fa1f0860d27)
+## Assignment 3 Nexted Links
+![Screenshot_5-9-2025_141743_127 0 0 1](https://github.com/user-attachments/assets/90d348b6-9d59-4205-b442-52c8e3037468)
