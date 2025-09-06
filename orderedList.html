@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Ordered List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f9f9f9;
+            padding: 20px;
+        }
+    
+        .main {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            border: 2px solid #333;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+    
+        header h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    
+   ul {
+     
+      padding-left: 20px;
+      
+    }
+    li {
+      margin: 6px 0;
+    }
+    </style>
+</head>
+<body>
+    <div class ="main">
+        <header>
+            <h1> <b>List Example</b> </h1>
+        </header>
+        <section>
+            <ol type="I">
+                <li>List Item 1
+                    <ol type="a">
+                         <li>Nexted item 1.1</li>
+                         <li>Nested item 1.2</li>
+                    </ol>
+                </li>
+                <li>List Item 2
+                    <ol type="1">
+                        <li>Nested item 2.1</li>
+                        <li>Nexted item 2.2
+                            
+                            <ul  type="circle">
+                                <li>Nested item 2.2.1</li>
+                                <li>Nested item 2.2.2
+                                    <ul type="square">
+                                        <li>Nested item 2.2.2.1</li>
+                                        <li>nested item 2.2.2.2</li>
+                                    </ul>
+                                </li>
+                                <li>Nested item 2.2.3</li>
+                            </ul>
+                        </li>
+                        <li>Nested item 2.3</li>
+                    </ol>
+                </li>
+                <li>List Item 3
+                    <ul type ="disc">
+                        <li>Nested item 3.1</li>
+                        <li>Nested item 3.1</li>
+                        <li>Nested item 3.1</li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+        <section>
+            <dl>
+                <dt>COMP 249</dt>
+                <dd>Object-Oriented progamming II</dd>
+                <dt>Soen289</dt>
+                <dd>Web Programming</dd>
+            </dl>
+        </section>
+        <section>
+            <p>This is a <sup>5</sup>test<sub>9</sub> for Assignment 1. </p>
+        </section>
+        <section>
+            <p><b>Figure 1.</b> List illustartion in HTML</p>
+        </section>
+    </div>
+    
+</body>
+</html>
