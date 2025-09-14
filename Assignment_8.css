@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    /* background-color:green; */
+    width: 80%;
+    height: 100vh;
+    top: 0;
+    position:fixed;
+    margin: 8px;
+}
+.box-1{
+    background-color: rgba(255, 217, 0, 0.76);
+    height: 50%;
+    width: 100%;
+    
+   
+}
+.circle {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+ z-index: 4;
+    object-fit: cover;
+    left: 40px;
+    top: 20px;
+   
+}
+
+
+.banner{
+    position: absolute;
+    z-index: 3;
+    height: 390px;
+    object-fit: cover;
+    width: 95%;
+    right: 0;
+    top: 50px;
+}
+.sub-box-2{
+    position: absolute;
+    z-index: 2;
+    background: black;
+    width: 35%;
+    right: 0;
+    top: 15px;
+    height: 100px;
+    margin-top: 6px;
+
+}
+.sub-box-3{
+    height: 8px;
+    background: white;
+    width: 35%;
+   
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 10px;
+      
+         
+}
+.box-2 {
+    margin-top: 40px;
+    background-color: rgba(255, 217, 0, 0.76);
+    height: 50%;
+    width: 100%;
+    display: flex;
+ 
+
+}
+.sub-box1{
+
+    width: 33%;
+padding: 30px;
+
+
+}
+
+.social i{
+    padding: 20px 0 20px 0;
+    font-size: 30px;
+    letter-spacing: 20px;
+ color: red;
+
+}
+.social i:hover{
+    color: white;
+}
+
+.sub-box2{
+  
+    width: 33%;
+    background-color: black;
+    color: white;
+     
+}
+.sub-box2-text{
+    padding: 20px;
+}
+.sub-box2-text i{
+    font-size: 40px;
+}
+.sub-box2-text h1 span{
+    color:rgba(255, 217, 0, 0.76);
+}
+.line-middle-box{
+    height: 5px;
+    width: 100%;
+    background-color: white;
+       margin-top: 15px;
+}
+.sub-box2-text p{
+line-height: 1.2;
+  
+}
+.sub-box3{
+
+    width: 33%;
+
+}
+.sub-box3-text{
+        padding: 20px;
+}
+.sub-box3 p{
+    line-height: 1.5;
+    font-size: 18px;
+}
+.line-right-box{
+height: 5px;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 10px;
+     
+        
+}
